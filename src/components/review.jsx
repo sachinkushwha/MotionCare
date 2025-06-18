@@ -18,7 +18,7 @@ export const Review = () => {
               "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem omnis
               dolore recusandae tempora id dignissimos."
             </p>
-            <h5 className="font-bold mt-2 sm:mt-4 text-xs sm:text-base">Dr. Kalimulah</h5>
+            <h5 className="font-bold mt-2 sm:mt-4 text-xs sm:text-base">Dr. Kalimullah</h5>
           </div>
 
           <div className="min-w-[220px] sm:min-w-[300px] max-w-[240px] sm:max-w-md bg-green-100 p-3 sm:p-6 rounded shadow">

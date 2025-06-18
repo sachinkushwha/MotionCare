@@ -17,7 +17,7 @@ function App() {
   }];
 
   let doc=[{
-    imgs:"https://easetemplate.com/free-website-templates/theraphy/images/team-1.jpg",title:"Dr.Sylvia Rosas",dis:"Consultant Physician"
+    imgs:"WhatsApp Image 2025-06-18 at 15.07.44_7ec17950.jpg",title:"Dr.Kalimullah",dis:"Consultant Physician"
   },{
     imgs:"https://easetemplate.com/free-website-templates/theraphy/images/service-1.jpg",title:"Physiotherapy"
   },{

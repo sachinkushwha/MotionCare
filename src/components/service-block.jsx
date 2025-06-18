@@ -9,7 +9,7 @@ export const Service = ({ imag }) => {
           <img
             src={arr.imgs}
             alt=""
-            className="w-full h-60 object-cover rounded-md"
+            className="w-full h-60 object-cover rounded-md object-top"
           />
           <h1 className="text-2xl font-semibold mt-4 font-roboto">{imag[index].title}</h1>
           <p className="mt-2 text-gray-700 text-sm">
