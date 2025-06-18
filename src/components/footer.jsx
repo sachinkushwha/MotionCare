@@ -38,9 +38,9 @@ export const Footer = () => {
                     </h1>
                     <ul className="space-y-2 text-sm sm:text-base text-gray-300">
                         <li className="hover:text-green-500 transition">4958 Norman Street, Los Angeles, CA 90042</li>
-                        <li className="hover:text-green-500 transition">+00 (800) 123-4567</li>
-                        <li className="hover:text-green-500 transition">+00 (123) 456 7890</li>
-                        <li className="hover:text-green-500 transition">info@gastrology.com</li>
+                        <li className="hover:text-green-500 transition"><a href="tel:+917546921395">📞+91 7546921395</a></li>
+                        {/* <li className="hover:text-green-500 transition">yaha ke liye bhi ek number bata de bhai</li> */}
+                        <li className="hover:text-green-500 transition"><a href="mailto:Kalimullahsiddique5@gmail.com">Kalimullahsiddique5@gmail.com</a></li>
                     </ul>
                 </div>
 

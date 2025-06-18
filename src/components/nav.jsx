@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 export const Nav = () => {
     const [isOpen,setIsOpen]=useState(false);
     return (
@@ -18,10 +19,10 @@ export const Nav = () => {
                     {/* Navigation Links */}
                     <div className={`w-full md:w-auto ${isOpen ? 'block' : 'hidden'} md:flex gap-3 text-lg mt-3 md:mt-0`} id='navbarNav'>
                         <ul className="flex gap-3">
-                            <li><a href="/" className="text-gray-700 hover:text-blue-600">Home</a></li>
-                            <li><a href="#" className="text-gray-700 hover:text-blue-600">Service List</a></li>
-                            <li><a href="#" className="text-gray-700 hover:text-blue-600">About</a></li>
-                            <li><a href="#" className="text-gray-700 hover:text-blue-600">Contact</a></li>
+                            <li><Link to="/" className="text-gray-700 hover:text-blue-600">Home</Link></li>
+                            <li><Link to="/service" className="text-gray-700 hover:text-blue-600">Service List</Link></li>
+                            <li><Link to="#" className="text-gray-700 hover:text-blue-600">About</Link></li>
+                            <li><Link to="tel:+917546921395" className="text-gray-700 hover:text-blue-600">📞+91 7546921395</Link></li>
                         </ul>
                     </div>
                 </div>
