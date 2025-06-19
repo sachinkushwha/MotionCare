@@ -12,7 +12,12 @@ export const Nav = () => {
                 <Link to="/" className="font-bold text-1xl text-gray-800">MotionCare</Link>
 
                 {/* Mobile Hamburger */}
-                <a href="tel:+917546921395" className="text-gray-700 hover:text-blue-600">📞+91 7546921395</a>
+                {
+                    !isOpen &&(
+<a href="tel:+917546921395" className="text-gray-700 hover:text-blue-600 ">📞+91 7546921395</a>
+                    )
+                }
+                
                 <button
                     className="md:hidden focus:outline-none"
                     onClick={() => setIsOpen(!isOpen)}
