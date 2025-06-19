@@ -12,7 +12,7 @@ export const Service = () => {
 
     return (
         <>
-        <Poster/>
+        {/* <Poster/> */}
         <div className="w-[95%] max-w-6xl mx-auto py-10 px-4">
             <h2 className="text-4xl font-bold text-center text-gray-800 mb-10">Our Services</h2>
 

@@ -1,4 +1,4 @@
-import styles from './nav.module.css';
+import styles from './review.module.css';
 
 export const Review = () => {
   return (
