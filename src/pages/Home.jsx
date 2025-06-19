@@ -1,3 +1,4 @@
+import { Outlet } from "react-router-dom";
 import { Appointment } from "../components/appointment";
 import { Poster } from "../components/poster"
 import { Review } from "../components/review";
@@ -25,6 +26,7 @@ function Home() {
       <Space />
       <Service imag={arr} />
       <Appointment/>
+      {/* <Outlet/> */}
       <Space />
       <Service imag={doc} />
       <Review/>

@@ -5,6 +5,8 @@ import Home from './pages/Home.jsx'
 import App from './App.jsx'
 import { Service } from './pages/serviesList.jsx'
 import {createBrowserRouter,RouterProvider} from 'react-router-dom'
+import { About } from './pages/about.jsx'
+import { Form } from './components/appointment.jsx'
 
  const router =createBrowserRouter([
    {
@@ -13,12 +15,20 @@ import {createBrowserRouter,RouterProvider} from 'react-router-dom'
     children: [
       {
         index: true,         
-        element: <Home />,
+        element: <Home />
       },
       {
         path: "service",        
         element: <Service />,
       },
+      {
+        path:'about',
+        element:<About/>
+      },
+      {
+        path:'form',
+        element:<Form/>
+      }
     ],
   },
   ])
