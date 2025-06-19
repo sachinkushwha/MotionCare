@@ -16,6 +16,9 @@ export const Appointment = () => {
     );
   };
 
+  const handleSubmit=(e)=>{
+    e.preventDefault();
+  }
 
 export const Form = () => {
   return (
@@ -31,7 +34,7 @@ export const Form = () => {
 
       {/* Form Section */}
       <div className="w-full lg:w-1/2 bg-white p-6 rounded-xl shadow-lg">
-        <form action="/form" className="flex flex-col gap-4">
+        <form onSubmit={handleSubmit} className="flex flex-col gap-4">
           <input
             type="text"
             placeholder="Enter your name"
