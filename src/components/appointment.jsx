@@ -17,6 +17,7 @@ export const Appointment = () => {
   };
 
   const handleSubmit=(e)=>{
+    alert("form submit sucessfuly");
     e.preventDefault();
   }
 
