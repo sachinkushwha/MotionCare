@@ -9,7 +9,7 @@ export const Footer = () => {
                         Therapies
                     </h1>
                     <ul className="space-y-2 text-sm sm:text-base text-gray-300">
-                        <li className="hover:text-green-500 transition">Massage Therapy</li>
+                        <li className="hover:text-green-500 transition">Cupping Therapy</li>
                         <li className="hover:text-green-500 transition">Physiotherapy</li>
                         <li className="hover:text-green-500 transition">Geriatric</li>
                         <li className="hover:text-green-500 transition">Rehabilitation</li>
