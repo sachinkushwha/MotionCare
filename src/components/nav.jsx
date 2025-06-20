@@ -40,10 +40,10 @@ export const Nav = () => {
                 {/* Mobile Links */}
                 {isOpen && (
                     <ul className="w-full mt-4 flex flex-col gap-3 text-lg md:hidden">
-                        <li><Link to="/" className="text-gray-700 hover:text-blue-600">Home</Link></li>
-                        <li><Link to="/service" className="text-gray-700 hover:text-blue-600">Service List</Link></li>
-                        <li><Link to="/about" className="text-gray-700 hover:text-blue-600">About</Link></li>
-                        <li><a href="tel:+917546921395" className="text-gray-700 hover:text-blue-600">📞+91 7546921395</a></li>
+                        <li><Link to="/" className="text-gray-700 hover:text-blue-600" onClick={()=>setIsOpen(false)}>Home</Link></li>
+                        <li><Link to="/service" className="text-gray-700 hover:text-blue-600" onClick={()=>setIsOpen(false)}>Service List</Link></li>
+                        <li><Link to="/about" className="text-gray-700 hover:text-blue-600" onClick={()=>setIsOpen(false)}>About</Link></li>
+                        <li><a href="tel:+917546921395" className="text-gray-700 hover:text-blue-600" onClick={()=>setIsOpen(false)}>📞+91 7546921395</a></li>
                     </ul>
                 )}
             </div>
