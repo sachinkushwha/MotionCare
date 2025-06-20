@@ -1,19 +1,21 @@
+import { useEffect, useState } from "react";
 import { Poster } from "../components/poster";
+import { service } from "../services/backend";
 
 export const Service = () => {
-    const services = [
-        "Physiotherapy for Back Pain",
-        "Joint Mobilization",
-        "Sports Injury Recovery",
-        "Post-Surgery Rehab",
-        "Home Visit Consultation",
-        "Dry Needling Therapy"
-    ];
+
+    const [services,setservice]=useState([]);
+
+    useEffect(()=>{
+        service().then((data)=>{
+            setservice(data);
+        })
+    },[])
 
     return (
         <>
         {/* <Poster/> */}
-        <div className="w-[95%] max-w-6xl mx-auto py-10 px-4">
+        <div className="pt-20 w-[95%] max-w-6xl mx-auto py-10 px-4">
             <h2 className="text-4xl font-bold text-center text-gray-800 mb-10">Our Services</h2>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

@@ -5,16 +5,16 @@ export const Nav = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <nav className="bg-white shadow-md">
+        <nav className="bg-white shadow-md fixed top-0 left-0 w-full bg-white shadow z-50">
             <div className="w-[97%] mx-auto flex flex-wrap items-center justify-between py-4">
 
                 {/* Logo */}
-                <Link to="/" className="font-bold text-1xl text-gray-800">MotionCare</Link>
+                <Link to="/" className="font-bold text-1xl text-gray-800">Dr.Kalimullah</Link>
 
                 {/* Mobile Hamburger */}
                 {
                     !isOpen && (
-                        <a href="tel:+917546921395" className="text-gray-700 hover:text-blue-600 ">📞+91 7546921395</a>
+                        <a href="tel:+917546921395" className="text-gray-700 hover:text-blue-600 md:hidden">📞+91 7546921395</a>
                     )
                 }
 
