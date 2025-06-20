@@ -1,11 +1,11 @@
 export const service=async()=>{
-    const response=await fetch("http://localhost:3000/service");
+    const response=await fetch("https://motioncarebackend.onrender.com/service");
     const data =await response.json();
     return data;
 }
 
 export const servarr=async()=>{
-    const response = await fetch("http://localhost:3000/serv");
+    const response = await fetch("https://motioncarebackend.onrender.com/serv");
     const data =await response.json();
     return data;
 }
@@ -18,7 +18,7 @@ export const doctor=async()=>{
 
 export const Appointmentdata=async(formdata)=>{
     console.log(formdata,"aaya")
-    const response=await fetch("http://localhost:3000/appointment",{
+    const response=await fetch("https://motioncarebackend.onrender.com/appointment",{
         method:'POST',headers:{'Content-type':'application/json'},body:JSON.stringify(formdata)
     })
     const reply=await response.json();
