@@ -11,7 +11,7 @@ export const servarr=async()=>{
 }
 
 export const doctor=async()=>{
-    const response = await fetch("http://localhost:3000/doctor");
+    const response = await fetch("https://motioncarebackend.onrender.com/doctor");
     const data =await response.json();
     return data;
 }
