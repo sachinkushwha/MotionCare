@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Appointmentdata } from "../services/backend";
 import { useNavigate } from "react-router-dom";
@@ -44,7 +44,6 @@ export const Form = () => {
       alert(reply);
       navigate('/');
     })
-    console.log(formdata);
     setformdata({
       name: "",
       email: "",
