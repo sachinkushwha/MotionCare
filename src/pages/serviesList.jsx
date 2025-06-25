@@ -9,6 +9,7 @@ export const Service = () => {
     useEffect(()=>{
         service().then((data)=>{
             setservice(data);
+            console.log(data);
         })
     },[])
 
@@ -25,10 +26,10 @@ export const Service = () => {
                         className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 p-6 border-t-4 border-blue-500"
                     >
                         <h3 className="text-xl font-semibold text-gray-800 mb-2">
-                            {service}
+                            {service.service}
                         </h3>
                         <p className="text-gray-600">
-                            Get personalized, expert care tailored to your needs — all at your doorstep.
+                            {service.dis}
                         </p>
                     </div>
                 ))}
