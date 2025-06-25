@@ -91,6 +91,7 @@ export const Form = () => {
           <input
             type="tel"
             name="phone"
+            maxLength={10}
             value={formdata.phone}
             onChange={handleChange}
             placeholder="Phone number"
