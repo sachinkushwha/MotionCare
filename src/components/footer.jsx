@@ -54,6 +54,10 @@ export const Footer = () => {
   <path fill="#FFF" d="M29.52 29.64l.88-5.64h-5.44v-3.68c0-1.56.76-3.08 3.2-3.08h2.48v-4.88s-2.24-.4-4.4-.4c-4.52 0-7.52 2.76-7.52 7.76v4.28h-5.04v5.64h5.04V43.8c1.04.16 2.12.24 3.2.24s2.16-.08 3.2-.24V29.64h4.56z"/>
 </svg>
 </a>
+                        <a href="https://www.linkedin.com/in/kalimullah-siddique-806881271?trk=contact-info" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="text-blue-700" viewBox="0 0 24 24">
+  <path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.11 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8h4V24h-4V8zm7.5 0h3.8v2.6h.1c.5-.9 1.7-1.9 3.5-1.9 3.7 0 4.4 2.4 4.4 5.6V24h-4v-8.2c0-2-.03-4.6-2.8-4.6-2.8 0-3.2 2.2-3.2 4.5V24h-4V8z"/>
+</svg>
+</a>
 
 
 
