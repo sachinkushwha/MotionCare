@@ -82,8 +82,9 @@ export const Footer = () => {
             </div>
             <div className="border-b border-gray-600 w-full">
             </div>
-            <div className="w-full bg-gray-800 text-center text-sm text-gray-400 h-10 flex justify-center items-center">
-                © {new Date().getFullYear()} MotionCare Clinic. All rights reserved.
+            <div className="w-full flex-col text-center text-sm text-white h-10 flex justify-center items-center">
+               <p> © {new Date().getFullYear()} drkalimphysio Clinic. All rights reserved.</p>
+                <p>Developed by sachin kushwaha</p>
             </div>
         </div>
     );
