@@ -25,7 +25,7 @@ export const Footer = () => {
                     </h1>
                     <div className="flex">
 
-                        <a href="" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 48 48">
+                        <a href="https://www.instagram.com/iam_kalimullah?igsh=djFsN2licjRsbm4z&utm_source=qr" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 48 48">
                             <radialGradient id="IG1" cx="19.38" cy="42.035" r="44.899" gradientUnits="userSpaceOnUse">
                                 <stop offset="0" stop-color="#fd5" />
                                 <stop offset=".328" stop-color="#ff543f" />
@@ -48,6 +48,12 @@ export const Footer = () => {
     C37,33.86,33.859,37,30,37z M18,13c-2.757,0-5,2.243-5,5v12c0,2.757,2.243,5,5,5h12c2.757,0,5-2.243,5-5V18c0-2.757-2.243-5-5-5H18z"/>
                         </svg>
                         </a>
+
+                        <a href="https://www.facebook.com/share/15kybvbcvL/?mibextid=wwXIfr" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 48 48">
+  <path fill="#1877F2" d="M24 4C12.96 4 4 12.96 4 24c0 9.96 7.28 18.22 16.8 19.76V29.64h-5.04v-5.64h5.04v-4.28c0-5 3-7.76 7.52-7.76 2.16 0 4.4.4 4.4.4v4.88h-2.48c-2.44 0-3.2 1.52-3.2 3.08v3.68h5.44l-.88 5.64h-4.56V43.8C36.72 42.24 44 33.96 44 24c0-11.04-8.96-20-20-20z"/>
+  <path fill="#FFF" d="M29.52 29.64l.88-5.64h-5.44v-3.68c0-1.56.76-3.08 3.2-3.08h2.48v-4.88s-2.24-.4-4.4-.4c-4.52 0-7.52 2.76-7.52 7.76v4.28h-5.04v5.64h5.04V43.8c1.04.16 2.12.24 3.2.24s2.16-.08 3.2-.24V29.64h4.56z"/>
+</svg>
+</a>
 
 
 
