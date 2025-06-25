@@ -105,6 +105,8 @@ export const Form = () => {
             className="border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400"
           >
             <option value="">Select Service</option>
+            <option value="Traditional Cupping Therapy">Traditional Cupping Therapy</option>
+            <option value="Dry Needling Therapy">Dry Needling Therapy</option>
             <option value="Back Pain Therapy">Back Pain Therapy</option>
             <option value="Sports Injury Rehab">Sports Injury Rehab</option>
             <option value="Home Visit">Home Visit</option>
