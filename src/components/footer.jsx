@@ -70,7 +70,7 @@ export const Footer = () => {
                         Clinic Address
                     </h1>
                     <ul className="space-y-2 text-sm sm:text-base text-gray-300">
-                        <li className="hover:text-green-500 transition">online</li>
+                        <li className="hover:text-green-500 transition">Home visit</li>
                         <li className="hover:text-green-500 transition">Mon - Sat: 9AM - 8PM</li>
                         <li className="hover:text-green-500 transition">Sunday: Closed</li>
                         <li className="hover:text-green-500 transition">Emergency: 24x7</li>
