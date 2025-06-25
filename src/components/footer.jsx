@@ -23,7 +23,7 @@ export const Footer = () => {
                     <h1 className="text-xl sm:text-2xl font-semibold mb-4 border-b border-gray-600 pb-2">
                         Social Feed
                     </h1>
-                    <div className="flex gap-2">
+                    <div className="flex gap-4">
 
                         <a href="https://www.instagram.com/iam_kalimullah?igsh=djFsN2licjRsbm4z&utm_source=qr" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 48 48">
                             <radialGradient id="IG1" cx="19.38" cy="42.035" r="44.899" gradientUnits="userSpaceOnUse">
