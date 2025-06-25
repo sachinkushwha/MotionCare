@@ -43,6 +43,8 @@ export const Form = () => {
     Appointmentdata(formdata).then((reply) => {
       alert(reply);
       navigate('/');
+    }).catch((error)=>{
+      alert('somthing went wrong. please try again')
     })
     setformdata({
       name: "",

@@ -47,7 +47,7 @@ export const Nav = () => {
                     <li><Link to="/service" className="text-gray-700 hover:text-blue-600">Service List</Link></li>
                     <li><Link to="/about" className="text-gray-700 hover:text-blue-600">About</Link></li>
                     <li><a href="tel:+917546921395" className="text-gray-700 hover:text-blue-600">📞+91 7546921395</a></li>
-                    {isAuthenticated && <li><button className="text-gray-700 hover:text-blue-600" onClick={() => { logout({ logoutParams: { returnTo: window.location.origin } }) }}>logout</button></li>}
+                    {/* {isAuthenticated && <li><button className="text-gray-700 hover:text-blue-600" onClick={() => { logout({ logoutParams: { returnTo: window.location.origin } }) }}>logout</button></li>} */}
 
 
                 </ul>
@@ -59,7 +59,7 @@ export const Nav = () => {
                         <li><Link to="/service" className="text-gray-700 hover:text-blue-600" onClick={() => setIsOpen(false)}>Service List</Link></li>
                         <li><Link to="/about" className="text-gray-700 hover:text-blue-600" onClick={() => setIsOpen(false)}>About</Link></li>
                         <li><a href="tel:+917546921395" className="text-gray-700 hover:text-blue-600" onClick={() => setIsOpen(false)}>📞+91 7546921395</a></li>
-                        {isAuthenticated && <li><button className="text-gray-700 hover:text-blue-600" onClick={() => { logout({ logoutParams: { returnTo: window.location.origin } }) }}>logout</button></li>}
+                        {/* {isAuthenticated && <li><button className="text-gray-700 hover:text-blue-600" onClick={() => { logout({ logoutParams: { returnTo: window.location.origin } }) }}>logout</button></li>} */}
                     </ul>
                 )}
             </div>
