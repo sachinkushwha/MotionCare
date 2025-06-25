@@ -9,3 +9,12 @@ export const Space=()=>{
         </div>
     )
 }
+export const Space1=()=>{
+    return(
+        <div className="pt-[70px] pb-[70px]">
+            <div className="max-w-4xl mx-auto px-4 text-center space-y-6">
+                <h2 className="text-3xl md:text-4xl font-bold text-gray-800">Our Doctor's</h2>
+            </div>
+        </div>
+    )
+}

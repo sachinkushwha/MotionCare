@@ -3,7 +3,7 @@ import { Appointment } from "../components/appointment";
 import { Poster } from "../components/poster"
 import { Review } from "../components/review";
 import { Service } from "../components/service-block"
-import { Space } from "../components/space"
+import { Space, Space1 } from "../components/space"
 import { useEffect, useState } from "react";
 import { doctor, servarr } from "../services/backend";
 
@@ -43,7 +43,7 @@ function Home() {
       <Service imag={arr} />
       <Appointment />
       {/* <Outlet/> */}
-      <Space />
+      <Space1 />
       <Service imag={doc} />
       <Review />
     </>
