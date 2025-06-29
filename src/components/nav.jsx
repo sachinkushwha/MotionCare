@@ -19,6 +19,10 @@ export const Nav = () => {
     return (
         <nav className="bg-white shadow-md fixed top-0 left-0 w-full bg-white shadow z-50">
             <div className="w-[97%] mx-auto flex flex-wrap items-center justify-between py-4">
+<a href="https://wa.me/917546921395" target="_blank" class="fixed bottom-5 right-5 z-50">
+  <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="WhatsApp" class="w-12 h-12 hover:scale-110 transition-transform duration-300" />
+</a>
+
 
                 {/* Logo */}
                 <Link to="/" className="font-bold text-1xl text-gray-800">Dr.Kalimullah</Link>
