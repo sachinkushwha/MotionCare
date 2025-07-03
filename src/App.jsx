@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import { Footer } from "./components/footer";
 import { Nav } from "./components/nav"
 import { Outlet } from "react-router-dom";
